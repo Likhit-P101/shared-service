@@ -1,15 +1,19 @@
 {
-  "name": "shared-service",
-  "version": "1.0.0",
-  "description": "Shared Service (dto,utils,config,logger)",
-  "main": "src/index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "Shared",
-    "Service"
-  ],
-  "author": "",
-  "license": "ISC"
+    "name": "shared-service",
+    "version": "1.0.0",
+    "description": "Shared Service (dto,utils,config,logger)",
+    "main": "src/index.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc --build",
+        "clean": "rd /s /q dist",
+        "dev": "ts-node-dev --respawn src/index.ts",
+        "start": "npm run clean && tsc && node ./dist/src/index.js"
+    },
+    "keywords": [
+        "Shared-Service"
+    ],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs"
 }
