@@ -1,0 +1,15 @@
+{
+  "name": "shared-service",
+  "version": "1.0.0",
+  "description": "Shared Service (dto,utils,config,logger)",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Shared",
+    "Service"
+  ],
+  "author": "",
+  "license": "ISC"
+}
